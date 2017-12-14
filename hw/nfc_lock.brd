@@ -182,6 +182,78 @@ MAX3223-MAX3243.pdf</description>
 </package>
 </packages>
 </library>
+<library name="linear">
+<description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
+Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="1.0208" y="-4.318" size="0.8128" layer="21" ratio="12">3</text>
+<text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
+<text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
+<text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+<package name="SOT89">
+<description>&lt;b&gt;SOT98&lt;/b&gt; PK (R-PDSO-G3)&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="21"/>
+<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="21"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<smd name="1" x="-1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
+<smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
+<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
+<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
+<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
+<rectangle x1="-2.025" y1="-2.775" x2="-0.975" y2="-1.2" layer="29"/>
+<rectangle x1="0.975" y1="-2.775" x2="2.025" y2="-1.2" layer="29"/>
+<rectangle x1="-0.525" y1="-2.775" x2="0.525" y2="-1.2" layer="29"/>
+<rectangle x1="1.1" y1="-2.68" x2="1.9" y2="-1.28" layer="31"/>
+<rectangle x1="-1.9" y1="-2.68" x2="-1.1" y2="-1.28" layer="31"/>
+<rectangle x1="-0.9" y1="0" x2="0.9" y2="2.2" layer="31"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -380,6 +452,8 @@ design rules under a new name.</description>
 <attribute name="MF" value="STMicroelectronics" x="20.32" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="stm8" package="TSSOP20" value="STM8S003F3" x="31.75" y="34.29" rot="R270"/>
+<element name="IC2" library="linear" package="SOT223" value="MCP1703DB" x="19.05" y="40.64"/>
+<element name="IC3" library="linear" package="SOT89" value="MCP170312MB" x="43.18" y="40.64"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -396,6 +470,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="7"/>
+</signal>
+<signal name="N$1">
+<contactref element="IC1" pad="12"/>
+<contactref element="U1" pad="6"/>
+<wire x1="22.6822" y1="17.145" x2="34.6678" y2="32.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC1" pad="11"/>
+<contactref element="U1" pad="5"/>
+<wire x1="22.6822" y1="15.875" x2="34.6678" y2="31.365" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
