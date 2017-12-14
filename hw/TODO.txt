@@ -2,3 +2,4 @@
 * add plug for SWIM
 * add 2x plug for servo mechanism
 * draw PCB (including antena!!)
+* add red LED to indicate: power-on, low power problems, I/O activity
