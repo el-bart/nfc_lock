@@ -10322,6 +10322,45 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD2" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD1,27-2,54">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10344,6 +10383,10 @@ Based on the following sources:
 <part name="D2" library="diode" deviceset="GF1" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="0V" device=""/>
+<part name="VCC" library="wirepad" deviceset="SMD2" device=""/>
+<part name="GND" library="wirepad" deviceset="SMD2" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="0V" device=""/>
+<part name="SUPPLY7" library="supply2" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10362,6 +10405,10 @@ Based on the following sources:
 <instance part="D2" gate="D" x="45.72" y="154.94"/>
 <instance part="SUPPLY4" gate="0V" x="86.36" y="139.7"/>
 <instance part="SUPPLY5" gate="0V" x="53.34" y="139.7"/>
+<instance part="VCC" gate="1" x="10.16" y="160.02"/>
+<instance part="GND" gate="1" x="10.16" y="149.86"/>
+<instance part="SUPPLY6" gate="0V" x="20.32" y="147.32"/>
+<instance part="SUPPLY7" gate="+5V" x="20.32" y="162.56"/>
 </instances>
 <busses>
 </busses>
@@ -10400,6 +10447,11 @@ Based on the following sources:
 <pinref part="SUPPLY5" gate="0V" pin="0V"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND" gate="1" pin="P"/>
+<pinref part="SUPPLY6" gate="0V" pin="0V"/>
+<wire x1="20.32" y1="149.86" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V/1" class="0">
 <segment>
@@ -10416,6 +10468,11 @@ Based on the following sources:
 <pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
 <pinref part="D1" gate="D" pin="A"/>
 <wire x1="33.02" y1="154.94" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="VCC" gate="1" pin="P"/>
+<pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
+<wire x1="20.32" y1="160.02" x2="12.7" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
