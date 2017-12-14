@@ -1,1 +1,4 @@
 * make SMD power supply, that does NOT require soldering... ;)
+* add plug for SWIM
+* add 2x plug for servo mechanism
+* draw PCB (including antena!!)
