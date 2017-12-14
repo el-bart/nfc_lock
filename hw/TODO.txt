@@ -1,0 +1,1 @@
+* make SMD power supply, that does NOT require soldering... ;)
