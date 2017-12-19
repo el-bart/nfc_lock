@@ -16094,8 +16094,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="SUPPLY25" library="supply2" deviceset="+5V/1" device="" value="+3.3V"/>
 <part name="U4" library="2n7002" deviceset="2N7002BKW" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R5/RED" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="RED"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="SUPPLY26" library="supply2" deviceset="0V" device=""/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="153CLV-0405" value="1uF"/>
 <part name="SUPPLY27" library="supply2" deviceset="0V" device=""/>
@@ -16104,8 +16104,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="33pF"/>
 <part name="SUPPLY28" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="0V" device=""/>
-<part name="R5/RED1" library="rcl" deviceset="R-EU_" device="R0805" value="24k"/>
-<part name="R5/RED2" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="24k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="SUPPLY30" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="+5V/2" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="+5V/2" device=""/>
@@ -16160,7 +16160,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY25" gate="G$1" x="167.64" y="101.6"/>
 <instance part="U4" gate="A" x="116.84" y="0"/>
 <instance part="LED1" gate="G$1" x="152.4" y="20.32"/>
-<instance part="R5/RED" gate="G$1" x="152.4" y="7.62" rot="R270"/>
+<instance part="R5" gate="G$1" x="152.4" y="7.62" rot="R270"/>
 <instance part="SUPPLY26" gate="0V" x="109.22" y="-2.54"/>
 <instance part="C4" gate="G$1" x="-15.24" y="81.28"/>
 <instance part="SUPPLY27" gate="0V" x="-15.24" y="68.58"/>
@@ -16169,8 +16169,8 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="C6" gate="G$1" x="-25.4" y="55.88" rot="R270"/>
 <instance part="SUPPLY28" gate="0V" x="-33.02" y="60.96"/>
 <instance part="SUPPLY29" gate="0V" x="-33.02" y="53.34"/>
-<instance part="R5/RED1" gate="G$1" x="99.06" y="-40.64" rot="R270"/>
-<instance part="R5/RED2" gate="G$1" x="99.06" y="-55.88" rot="R270"/>
+<instance part="R6" gate="G$1" x="99.06" y="-40.64" rot="R270"/>
+<instance part="R7" gate="G$1" x="99.06" y="-55.88" rot="R270"/>
 <instance part="SUPPLY30" gate="0V" x="99.06" y="-66.04"/>
 <instance part="SUPPLY31" gate="G$1" x="-63.5" y="111.76"/>
 <instance part="SUPPLY22" gate="G$1" x="152.4" y="27.94"/>
@@ -16292,7 +16292,7 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="-33.02" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5/RED2" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY30" gate="0V" pin="0V"/>
 <wire x1="99.06" y1="-63.5" x2="99.06" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
@@ -16419,7 +16419,7 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="SUPPLY22" gate="G$1" pin="+5V/2"/>
 </segment>
 <segment>
-<pinref part="R5/RED1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY32" gate="G$1" pin="+5V/2"/>
 <wire x1="99.06" y1="-33.02" x2="99.06" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
@@ -16491,13 +16491,13 @@ Source: 008-0260-0_E.pdf</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R5/RED" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="15.24" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R5/RED" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="U4" gate="A" pin="DRAIN"/>
 <wire x1="152.4" y1="0" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -16534,8 +16534,8 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="58.42" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="66.04" x2="63.5" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-48.26" x2="99.06" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="R5/RED1" gate="G$1" pin="2"/>
-<pinref part="R5/RED2" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="-50.8" x2="99.06" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-48.26" x2="99.06" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="99.06" y="-48.26"/>
