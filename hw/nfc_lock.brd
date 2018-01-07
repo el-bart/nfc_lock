@@ -140,10 +140,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="5.08" y1="3.81" x2="54.28" y2="3.81" width="0" layer="20"/>
-<wire x1="54.28" y1="3.81" x2="54.28" y2="80" width="0" layer="20"/>
-<wire x1="54.28" y1="80" x2="5.08" y2="80" width="0" layer="20"/>
-<wire x1="5.08" y1="80" x2="5.08" y2="3.81" width="0" layer="20"/>
+<wire x1="5.08" y1="4.445" x2="53.645" y2="4.445" width="0" layer="20"/>
+<wire x1="53.645" y1="4.445" x2="53.645" y2="80" width="0" layer="20"/>
+<wire x1="53.645" y1="80" x2="5.08" y2="80" width="0" layer="20"/>
+<wire x1="5.08" y1="80" x2="5.08" y2="4.445" width="0" layer="20"/>
 <text x="48.26" y="10.16" size="1.778" layer="25" rot="R90">NFC lock / HW v0.1.0</text>
 </plain>
 <libraries>
@@ -2516,6 +2516,10 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="1,20,59638b838aab584b"/>
+<approved hash="1,20,57bd965d91a25042"/>
+<approved hash="4,1,2be02820a0929abc"/>
+<approved hash="4,1,ae88032e169c1cd3"/>
 <approved hash="1,20,d77891989574d394"/>
 <approved hash="1,20,dd75ac15adf7dc97"/>
 <approved hash="1,20,568427e424e45584"/>
@@ -2545,18 +2549,25 @@ design rules under a new name.</description>
 <approved hash="1,20,debca15ca7a6d846"/>
 <approved hash="1,20,9c83256325709c90"/>
 <approved hash="1,20,5879969997a15941"/>
-<approved hash="1,20,59638b838aab584b"/>
+<approved hash="1,20,df768d96897adb9a"/>
 <approved hash="1,20,1673c493c07a129a"/>
 <approved hash="1,20,da7d9b1d9a05db65"/>
 <approved hash="1,20,9c79259925779c97"/>
 <approved hash="1,20,587e971e96f65996"/>
-<approved hash="1,20,57bd965d91a25042"/>
-<approved hash="4,1,2be02820a0929abc"/>
-<approved hash="4,1,ae88032e169c1cd3"/>
+<approved hash="1,20,d28a936a9270d390"/>
+<approved hash="4,1,84d2f128869998a8"/>
+<approved hash="4,1,87f2a42f909de2ce"/>
 <approved hash="4,1,4ab53b9b904a9585"/>
 <approved hash="4,1,73ca6902184ae86a"/>
+<approved hash="4,1,a7f06418604ea73a"/>
+<approved hash="4,1,a6ce6c6a6e74a70c"/>
+<approved hash="4,1,86b84011752c768e"/>
+<approved hash="4,1,022b3c8899203e1c"/>
+<approved hash="4,1,4a2e2415d52be618"/>
+<approved hash="19,1,92b626113e825b86"/>
 <approved hash="4,16,4ab53b9b904a9585"/>
 <approved hash="4,16,73ca6902184ae86a"/>
+<approved hash="5,16,78ec6e5e8531463c"/>
 </errors>
 </board>
 </drawing>
