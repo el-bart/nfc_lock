@@ -16084,7 +16084,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY10" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="+5V/1" device="" value="+3.3V"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10nF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="10nF"/>
 <part name="SUPPLY12" library="supply2" deviceset="+5V/1" device="" value="+3.3V"/>
 <part name="SUPPLY13" library="supply2" deviceset="0V" device=""/>
 <part name="U3" library="irfml8244trpbf" deviceset="IRFML8244TRPBF" device=""/>
@@ -16112,8 +16112,6 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="153CLV-0405" value="1uF"/>
 <part name="SUPPLY27" library="supply2" deviceset="0V" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="SM49" value="8MHz"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="33pF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="33pF"/>
 <part name="SUPPLY28" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="0V" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="24k"/>
@@ -16131,6 +16129,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY36" library="supply2" deviceset="+5V/2" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="0V" device=""/>
 <part name="Q3" library="Common-Parts-Library-Eagle" deviceset="2N7002,215" device=""/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="33pF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="33pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16185,8 +16185,6 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="C4" gate="G$1" x="-15.24" y="81.28"/>
 <instance part="SUPPLY27" gate="0V" x="-15.24" y="68.58"/>
 <instance part="Q1" gate="G$1" x="-22.86" y="60.96" rot="R90"/>
-<instance part="C5" gate="G$1" x="-27.94" y="63.5" rot="R90"/>
-<instance part="C6" gate="G$1" x="-25.4" y="55.88" rot="R270"/>
 <instance part="SUPPLY28" gate="0V" x="-33.02" y="60.96"/>
 <instance part="SUPPLY29" gate="0V" x="-33.02" y="53.34"/>
 <instance part="R6" gate="G$1" x="99.06" y="-40.64" rot="R270"/>
@@ -16204,6 +16202,8 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY36" gate="G$1" x="-129.54" y="-15.24"/>
 <instance part="SUPPLY37" gate="0V" x="-129.54" y="-35.56"/>
 <instance part="Q3" gate="G$1" x="149.86" y="-7.62"/>
+<instance part="C8" gate="G$1" x="-27.94" y="63.5" rot="R90"/>
+<instance part="C5" gate="G$1" x="-27.94" y="55.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16306,14 +16306,14 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="-15.24" y1="71.12" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY28" gate="0V" pin="0V"/>
 <wire x1="-33.02" y1="63.5" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="SUPPLY29" gate="0V" pin="0V"/>
 <wire x1="-33.02" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -16576,7 +16576,7 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="IC1" gate="G$1" pin="OSCIN/PA1"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="63.5" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <junction x="-22.86" y="63.5"/>
 </segment>
 </net>
@@ -16586,7 +16586,7 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="58.42" x2="-22.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="55.88" x2="-10.16" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <junction x="-22.86" y="55.88"/>
 </segment>
 </net>
