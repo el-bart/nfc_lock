@@ -13318,87 +13318,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="2n7002">
-<packages>
-<package name="SOT65P210X110-3N">
-<smd name="1" x="-0.9398" y="0.6604" dx="1.1684" dy="0.4572" layer="1"/>
-<smd name="2" x="-0.9398" y="-0.6604" dx="1.1684" dy="0.4572" layer="1"/>
-<smd name="3" x="0.9398" y="0" dx="1.1684" dy="0.4572" layer="1"/>
-<wire x1="0.6858" y1="0.5588" x2="0.6858" y2="1.0922" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="-1.0922" x2="0.6858" y2="-1.0922" width="0.1524" layer="21"/>
-<wire x1="0.6858" y1="-1.0922" x2="0.6858" y2="-0.5588" width="0.1524" layer="21"/>
-<wire x1="0.6858" y1="1.0922" x2="0.3048" y2="1.0922" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.0922" x2="-0.127" y2="1.0922" width="0.1524" layer="21"/>
-<wire x1="-0.6858" y1="0.1016" x2="-0.6858" y2="-0.1016" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.0922" x2="-0.0254" y2="0.7874" width="0.1524" layer="21" curve="-97"/>
-<text x="-1.778" y="0.9652" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<wire x1="-0.6858" y1="-1.0922" x2="0.6858" y2="-1.0922" width="0" layer="51"/>
-<wire x1="0.6858" y1="-1.0922" x2="0.6858" y2="-0.2032" width="0" layer="51"/>
-<wire x1="0.6858" y1="-0.2032" x2="0.6858" y2="0.2032" width="0" layer="51"/>
-<wire x1="0.6858" y1="0.2032" x2="0.6858" y2="1.0922" width="0" layer="51"/>
-<wire x1="0.6858" y1="1.0922" x2="0.3048" y2="1.0922" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.0922" x2="-0.3048" y2="1.0922" width="0" layer="51"/>
-<wire x1="-0.3048" y1="1.0922" x2="-0.6858" y2="1.0922" width="0" layer="51"/>
-<wire x1="-0.6858" y1="1.0922" x2="-0.6858" y2="0.8382" width="0" layer="51"/>
-<wire x1="-0.6858" y1="0.8382" x2="-0.6858" y2="0.4572" width="0" layer="51"/>
-<wire x1="-0.6858" y1="0.4572" x2="-0.6858" y2="-0.4572" width="0" layer="51"/>
-<wire x1="-0.6858" y1="0.8382" x2="-1.0922" y2="0.8382" width="0" layer="51"/>
-<wire x1="-1.0922" y1="0.8382" x2="-1.0922" y2="0.4572" width="0" layer="51"/>
-<wire x1="-1.0922" y1="0.4572" x2="-0.6858" y2="0.4572" width="0" layer="51"/>
-<wire x1="-0.6858" y1="-1.0922" x2="-0.6858" y2="-0.8382" width="0" layer="51"/>
-<wire x1="-0.6858" y1="-0.8382" x2="-0.6858" y2="-0.4572" width="0" layer="51"/>
-<wire x1="-0.6858" y1="-0.4572" x2="-1.0922" y2="-0.4572" width="0" layer="51"/>
-<wire x1="-1.0922" y1="-0.4572" x2="-1.0922" y2="-0.8382" width="0" layer="51"/>
-<wire x1="-1.0922" y1="-0.8382" x2="-0.6858" y2="-0.8382" width="0" layer="51"/>
-<wire x1="0.6858" y1="-0.2032" x2="1.0922" y2="-0.2032" width="0" layer="51"/>
-<wire x1="1.0922" y1="-0.2032" x2="1.0922" y2="0.2032" width="0" layer="51"/>
-<wire x1="1.0922" y1="0.2032" x2="0.6858" y2="0.2032" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.0922" x2="-0.3048" y2="1.0922" width="0" layer="51" curve="-180"/>
-<text x="-1.778" y="0.9652" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.81" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="2N7002BKW">
-<pin name="SOURCE" x="0" y="0" length="middle" direction="pas"/>
-<pin name="GATE" x="0" y="-5.08" length="middle" direction="pas"/>
-<pin name="DRAIN" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="30.48" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.127" layer="94"/>
-<wire x1="30.48" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
-<text x="11.8872" y="7.112" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="14.4018" y="-12.9286" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2N7002BKW" prefix="U">
-<description>N-channel Trench MOSFET</description>
-<gates>
-<gate name="A" symbol="2N7002BKW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT65P210X110-3N">
-<connects>
-<connect gate="A" pin="DRAIN" pad="3"/>
-<connect gate="A" pin="GATE" pad="1"/>
-<connect gate="A" pin="SOURCE" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="2N7002BKW" constant="no"/>
-<attribute name="OC_FARNELL" value="1894713" constant="no"/>
-<attribute name="OC_NEWARK" value="55T7739" constant="no"/>
-<attribute name="PACKAGE" value="SOT-3" constant="no"/>
-<attribute name="SUPPLIER" value="NXP Semiconductors" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -16041,6 +15960,100 @@ Source: 008-0260-0_E.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Common-Parts-Library-Eagle">
+<packages>
+<package name="SOT95P230X110-3N">
+<wire x1="-2.023" y1="2.183" x2="2.023" y2="2.183" width="0.0508" layer="39"/>
+<wire x1="2.023" y1="-2.183" x2="-2.023" y2="-2.183" width="0.0508" layer="39"/>
+<wire x1="-2.023" y1="-2.183" x2="-2.023" y2="2.183" width="0.0508" layer="39"/>
+<wire x1="2.023" y1="2.183" x2="2.023" y2="-2.183" width="0.0508" layer="39"/>
+<text x="-2.205" y="2.305" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.205" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<circle x="-1.8" y="-1.8" radius="0.1" width="0" layer="21"/>
+<wire x1="-1.45" y1="0.65" x2="-0.75" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="0.75" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.65" x2="-1.45" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-0.65" x2="0.25" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="0.65" x2="0.75" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-0.15" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-0.25" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="0.25" y1="-0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-0.65" x2="1.45" y2="-0.15" width="0.127" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2N7002,215">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="6.35" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="6.35" y="0" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="S" x="2.54" y="-7.62" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="7.62" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2N7002,215" prefix="Q">
+<description>2N7002 Series N-Channel 60 V 5 O 0.83 W TrenchMOS FET - SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="2N7002,215" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P230X110-3N">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="NXP Semiconductor"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16093,7 +16106,6 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY24" library="supply2" deviceset="0V" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="20k"/>
 <part name="SUPPLY25" library="supply2" deviceset="+5V/1" device="" value="+3.3V"/>
-<part name="U4" library="2n7002" deviceset="2N7002BKW" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="RED"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470R"/>
 <part name="SUPPLY26" library="supply2" deviceset="0V" device=""/>
@@ -16118,6 +16130,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY35" library="supply2" deviceset="+5V/2" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="+5V/2" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="0V" device=""/>
+<part name="Q3" library="Common-Parts-Library-Eagle" deviceset="2N7002,215" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16166,10 +16179,9 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY24" gate="0V" x="-111.76" y="-35.56"/>
 <instance part="R4" gate="G$1" x="167.64" y="91.44" rot="R90"/>
 <instance part="SUPPLY25" gate="G$1" x="167.64" y="101.6"/>
-<instance part="U4" gate="A" x="116.84" y="0"/>
 <instance part="LED1" gate="G$1" x="152.4" y="20.32"/>
 <instance part="R5" gate="G$1" x="152.4" y="7.62" rot="R270"/>
-<instance part="SUPPLY26" gate="0V" x="109.22" y="-2.54"/>
+<instance part="SUPPLY26" gate="0V" x="152.4" y="-20.32"/>
 <instance part="C4" gate="G$1" x="-15.24" y="81.28"/>
 <instance part="SUPPLY27" gate="0V" x="-15.24" y="68.58"/>
 <instance part="Q1" gate="G$1" x="-22.86" y="60.96" rot="R90"/>
@@ -16191,6 +16203,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY35" gate="G$1" x="-129.54" y="30.48"/>
 <instance part="SUPPLY36" gate="G$1" x="-129.54" y="-15.24"/>
 <instance part="SUPPLY37" gate="0V" x="-129.54" y="-35.56"/>
+<instance part="Q3" gate="G$1" x="149.86" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -16288,11 +16301,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="-111.76" y1="-27.94" x2="-116.84" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="A" pin="SOURCE"/>
-<pinref part="SUPPLY26" gate="0V" pin="0V"/>
-<wire x1="109.22" y1="0" x2="116.84" y2="0" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="SUPPLY27" gate="0V" pin="0V"/>
 <wire x1="-15.24" y1="71.12" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
@@ -16321,6 +16329,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="SV5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY37" gate="0V" pin="0V"/>
 <wire x1="-129.54" y1="-33.02" x2="-129.54" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="SUPPLY26" gate="0V" pin="0V"/>
+<wire x1="152.4" y1="-17.78" x2="152.4" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/1" class="0">
@@ -16547,8 +16560,8 @@ Source: 008-0260-0_E.pdf</description>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="U4" gate="A" pin="DRAIN"/>
 <wire x1="152.4" y1="0" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -16594,9 +16607,9 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC6/SPI_MOSI/[TIM1_CH1]"/>
 <wire x1="58.42" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="76.2" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="GATE"/>
-<wire x1="68.58" y1="-5.08" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="76.2" x2="68.58" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-10.16" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
 </nets>
