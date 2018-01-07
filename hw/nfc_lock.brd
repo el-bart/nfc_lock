@@ -140,11 +140,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="5.08" y1="0" x2="54.28" y2="0" width="0" layer="20"/>
-<wire x1="54.28" y1="0" x2="54.28" y2="80" width="0" layer="20"/>
+<wire x1="5.08" y1="3.81" x2="54.28" y2="3.81" width="0" layer="20"/>
+<wire x1="54.28" y1="3.81" x2="54.28" y2="80" width="0" layer="20"/>
 <wire x1="54.28" y1="80" x2="5.08" y2="80" width="0" layer="20"/>
-<wire x1="5.08" y1="80" x2="5.08" y2="0" width="0" layer="20"/>
-<text x="50.8" y="7.62" size="1.778" layer="25" rot="R90">NFC lock / HW v0.1.0</text>
+<wire x1="5.08" y1="80" x2="5.08" y2="3.81" width="0" layer="20"/>
+<text x="48.26" y="10.16" size="1.778" layer="25" rot="R90">NFC lock / HW v0.1.0</text>
 </plain>
 <libraries>
 <library name="m24sr16-ymn6t_2">
