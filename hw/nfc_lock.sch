@@ -16602,6 +16602,16 @@ Source: 008-0260-0_E.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,157.48,91.44,U1,VCC,+5V/1,,,"/>
+<approved hash="104,1,157.48,66.04,U1,VSS,0V,,,"/>
+<approved hash="104,1,-10.16,86.36,IC1,VDD,+5V/1,,,"/>
+<approved hash="104,1,-10.16,83.82,IC1,VCAP,N$15,,,"/>
+<approved hash="104,1,-10.16,73.66,IC1,GND,0V,,,"/>
+<approved hash="202,1,60.96,154.94,IC3,VI,,,,"/>
+<approved hash="209,1,111.76,83.82,ANTENA,,,,,"/>
+<approved hash="209,1,111.76,86.36,ANTENA,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
