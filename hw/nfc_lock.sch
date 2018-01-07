@@ -16088,7 +16088,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SV1" library="con-lstb" deviceset="MA03-1" device="" value="SERVO#1"/>
 <part name="SV2" library="con-lstb" deviceset="MA04-1" device="" value="SWIM"/>
 <part name="SUPPLY21" library="supply2" deviceset="0V" device=""/>
-<part name="SV3" library="con-lstb" deviceset="MA03-1" device="" value="SERVO#2"/>
+<part name="SV3" library="con-lstb" deviceset="MA03-1" device="" value="SERVO#3"/>
 <part name="SUPPLY23" library="supply2" deviceset="0V" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="0V" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="20k"/>
@@ -16112,6 +16112,12 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY32" library="supply2" deviceset="+5V/2" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="30k"/>
 <part name="SUPPLY33" library="supply2" deviceset="+5V/1" device="" value="+3.3V"/>
+<part name="SV4" library="con-lstb" deviceset="MA03-1" device="" value="SERVO#4"/>
+<part name="SV5" library="con-lstb" deviceset="MA03-1" device="" value="SERVO#2"/>
+<part name="SUPPLY34" library="supply2" deviceset="0V" device=""/>
+<part name="SUPPLY35" library="supply2" deviceset="+5V/2" device=""/>
+<part name="SUPPLY36" library="supply2" deviceset="+5V/2" device=""/>
+<part name="SUPPLY37" library="supply2" deviceset="0V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16179,6 +16185,12 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY32" gate="G$1" x="99.06" y="-30.48"/>
 <instance part="R8" gate="G$1" x="96.52" y="99.06" rot="R90"/>
 <instance part="SUPPLY33" gate="G$1" x="96.52" y="109.22"/>
+<instance part="SV4" gate="G$1" x="-137.16" y="20.32"/>
+<instance part="SV5" gate="G$1" x="-137.16" y="-25.4"/>
+<instance part="SUPPLY34" gate="0V" x="-129.54" y="7.62"/>
+<instance part="SUPPLY35" gate="G$1" x="-129.54" y="30.48"/>
+<instance part="SUPPLY36" gate="G$1" x="-129.54" y="-15.24"/>
+<instance part="SUPPLY37" gate="0V" x="-129.54" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -16299,6 +16311,16 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY30" gate="0V" pin="0V"/>
 <wire x1="99.06" y1="-63.5" x2="99.06" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY34" gate="0V" pin="0V"/>
+<wire x1="-129.54" y1="10.16" x2="-129.54" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<pinref part="SUPPLY37" gate="0V" pin="0V"/>
+<wire x1="-129.54" y1="-33.02" x2="-129.54" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V/1" class="0">
@@ -16434,6 +16456,16 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="SUPPLY32" gate="G$1" pin="+5V/2"/>
 <wire x1="99.06" y1="-33.02" x2="99.06" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<pinref part="SUPPLY35" gate="G$1" pin="+5V/2"/>
+<wire x1="-129.54" y1="27.94" x2="-129.54" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV5" gate="G$1" pin="3"/>
+<pinref part="SUPPLY36" gate="G$1" pin="+5V/2"/>
+<wire x1="-129.54" y1="-17.78" x2="-129.54" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -16490,6 +16522,9 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="U2" gate="A" pin="D"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="-25.4" x2="-104.14" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="SV5" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="-25.4" x2="-116.84" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-116.84" y="-25.4"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -16497,6 +16532,9 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="U3" gate="A" pin="D"/>
 <pinref part="SV3" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="20.32" x2="-116.84" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-116.84" y="20.32"/>
 </segment>
 </net>
 <net name="N$12" class="0">
