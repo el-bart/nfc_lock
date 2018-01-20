@@ -1,4 +1,3 @@
 # TODO list
 
-* draw PCB (including antenna!!)
-* each PWM channel should drive 2 servos, not 1 (i.e. so that dual-door closets are also lockable)
+* PCB antena / m24sr does not seem to work at the moment...
