@@ -2398,8 +2398,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="3"/>
 <contactref element="U1" pad="2"/>
 <via x="66.04" y="25.4" extent="1-16" drill="0.6"/>
-<wire x1="66.04" y1="25.4" x2="66.675" y2="24.765" width="0.6096" layer="1"/>
-<wire x1="66.86041875" y1="24.5999" x2="66.144140625" y2="25.313640625" width="0.6096" layer="1"/>
 <wire x1="66.86041875" y1="-6.1849" x2="66.86041875" y2="24.5999" width="0.6096" layer="1"/>
 <wire x1="66.86041875" y1="-6.1849" x2="13.86078125" y2="-6.1849" width="0.6096" layer="1"/>
 <wire x1="68.061840625" y1="-7.38378125" x2="68.061840625" y2="26.81731875" width="0.6096" layer="1"/>
@@ -2435,6 +2433,8 @@ design rules under a new name.</description>
 <wire x1="46.355" y1="33.02" x2="64.63538125" y2="33.02" width="0.6096" layer="16"/>
 <wire x1="64.63538125" y1="33.02" x2="66.04" y2="31.61538125" width="0.6096" layer="16"/>
 <wire x1="66.04" y1="31.61538125" x2="66.04" y2="25.4" width="0.6096" layer="16"/>
+<wire x1="66.86041875" y1="24.5999" x2="66.8401" y2="24.5999" width="0.4064" layer="1"/>
+<wire x1="66.8401" y1="24.5999" x2="66.04" y2="25.4" width="0.6096" layer="1"/>
 </signal>
 <signal name="SERVO_PACK_2">
 <contactref element="U3" pad="1"/>
@@ -2443,8 +2443,8 @@ design rules under a new name.</description>
 <via x="45.085" y="64.135" extent="1-16" drill="0.6"/>
 <wire x1="45.085" y1="64.135" x2="48.26" y2="64.135" width="0.4064" layer="16"/>
 <via x="48.26" y="64.135" extent="1-16" drill="0.6"/>
-<wire x1="48.26" y1="64.135" x2="51.435" y2="64.135" width="0.4064" layer="1"/>
-<wire x1="51.435" y1="64.135" x2="53.34" y2="66.04" width="0.4064" layer="1"/>
+<wire x1="48.26" y1="64.135" x2="50.165" y2="66.04" width="0.4064" layer="1"/>
+<wire x1="50.165" y1="66.04" x2="53.34" y2="66.04" width="0.4064" layer="1"/>
 <via x="53.34" y="66.04" extent="1-16" drill="0.6"/>
 <wire x1="44.775" y1="56.2578" x2="44.775" y2="63.825" width="0.4064" layer="1"/>
 <wire x1="44.775" y1="63.825" x2="45.085" y2="64.135" width="0.4064" layer="1"/>
@@ -2625,7 +2625,6 @@ design rules under a new name.</description>
 <signal name="S$1347">
 </signal>
 <signal name="S$1348">
-<wire x1="66.144140625" y1="25.562559375" x2="66.144140625" y2="25.06471875" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -2688,6 +2687,60 @@ design rules under a new name.</description>
 <approved hash="4,16,4ab53b9b904a9585"/>
 <approved hash="4,16,73ca6902184ae86a"/>
 <approved hash="5,16,78ec6e5e8531463c"/>
+<approved hash="1,20,0279449944710291"/>
+<approved hash="1,20,9b794a194af19b91"/>
+<approved hash="1,20,6462950292276347"/>
+<approved hash="1,20,957a9a9a99849664"/>
+<approved hash="1,20,5a7c9b1c9a045b64"/>
+<approved hash="1,20,5772961292f15391"/>
+<approved hash="1,20,03b9785967a71c47"/>
+<approved hash="1,20,9a7c6b9c698f986f"/>
+<approved hash="1,20,9b779a179af79b97"/>
+<approved hash="1,20,188569e56af51b95"/>
+<approved hash="1,20,5578479846f75417"/>
+<approved hash="1,20,bcbdae5d90878267"/>
+<approved hash="1,20,977a961a91299049"/>
+<approved hash="1,20,64bc765c48fb5a1b"/>
+<approved hash="1,20,8a60410046278d47"/>
+<approved hash="1,20,9a7d4b1d4af39b93"/>
+<approved hash="1,20,d2bb59db462bcd4b"/>
+<approved hash="1,20,800246e245c38323"/>
+<approved hash="1,20,8282446244778297"/>
+<approved hash="1,20,916c638c62a59045"/>
+<approved hash="1,20,9c7a9b1a99f89e98"/>
+<approved hash="1,20,9e78991899f59e95"/>
+<approved hash="1,20,9c7a939a94a89b48"/>
+<approved hash="1,20,5dba4f5a48da5a3a"/>
+<approved hash="1,20,96bf49df46f59995"/>
+<approved hash="1,20,0bbc90dc96240d44"/>
+<approved hash="1,20,9d639483956b9c8b"/>
+<approved hash="1,20,427a7b9a64765d96"/>
+<approved hash="1,20,197568156a051b65"/>
+<approved hash="1,20,9bbc925c92749b94"/>
+<approved hash="1,20,dbbd625d6548dca8"/>
+<approved hash="1,20,198c48ec49f01890"/>
+<approved hash="1,20,1a8d956d94761b96"/>
+<approved hash="1,20,9d7c669c67749c94"/>
+<approved hash="1,20,198b68eb69f11891"/>
+<approved hash="1,20,1a7a489a48721a92"/>
+<approved hash="1,20,4d799f999e8c4c6c"/>
+<approved hash="1,20,1e7d7f1d7c1f1d7f"/>
+<approved hash="1,20,91659885946a9d8a"/>
+<approved hash="1,20,8779581947ca98aa"/>
+<approved hash="1,20,ef634e8341a2e042"/>
+<approved hash="1,20,d87d471d4619d979"/>
+<approved hash="1,20,fcb97dd96220e340"/>
+<approved hash="4,1,0354f8d545f28a71"/>
+<approved hash="4,1,0cd9fb5905fa8a7e"/>
+<approved hash="4,1,c3d7f85645f74a73"/>
+<approved hash="4,1,86e8ec19c9d150b1"/>
+<approved hash="4,1,e934a280f24a3d7d"/>
+<approved hash="4,1,9dbe672da6a36b5c"/>
+<approved hash="4,1,b10d6173a22b6f08"/>
+<approved hash="4,1,814e7b29a4555275"/>
+<approved hash="4,1,011fe3553449245c"/>
+<approved hash="4,1,1773e7ed30e13188"/>
+<approved hash="5,16,3dee357c863039f1"/>
 </errors>
 </board>
 </drawing>
