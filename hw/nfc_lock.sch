@@ -16124,8 +16124,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY35" library="supply2" deviceset="+5V/2" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="+5V/2" device=""/>
 <part name="Q3" library="Common-Parts-Library-Eagle" deviceset="2N7002,215" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="33pF"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="33pF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="33pF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="33pF"/>
 <part name="U4" library="irfml8244trpbf" deviceset="IRFML8244TRPBF" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="SUPPLY38" library="supply2" deviceset="0V" device=""/>
