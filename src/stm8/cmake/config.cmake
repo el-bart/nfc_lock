@@ -1,13 +1,13 @@
 add_definitions(-D STM8S003)
 
 include_directories(${CMAKE_SOURCE_DIR}/Stm8sStdPeriph)
-include_directories(${CMAKE_SOURCE_DIR}/stm8s_common)
 
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu99")
 
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions")
 
+add_definitions(-lstm8 -mstm8)
 #add_definitions(-mthumb -mcpu=cortex-m0)
 #add_definitions(-nostartfiles)
 
@@ -20,10 +20,7 @@ include_directories(${CMAKE_SOURCE_DIR}/stm8s_common)
 
 function(add_binary BINNAME)
   add_executable(${BINNAME}.out ${ARGN})
-  target_link_libraries(${BINNAME}.out
-      stm8s_common
-      Stm8sStdPeriph
-    )
+  #target_link_libraries(${BINNAME}.out)
   add_custom_command(OUTPUT ${BINNAME}.bin
       COMMAND arm-none-eabi-objcopy -O binary ${BINNAME}.out ${BINNAME}.bin
       DEPENDS ${BINNAME}.out

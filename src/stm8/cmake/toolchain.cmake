@@ -2,7 +2,22 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR stm8)
 
 set(CMAKE_C_COMPILER sdcc)
-unset(CMAKE_CXX_COMPILER)
+
+set(CMAKE_OBJCOPY sdobjcopy)
+set(CMAKE_PACKIHX packihx)
+
+set(CMAKE_EXECUTABLE_SUFFIX ".ihx")
+
+set(SDCCLIB_EXECUTABLE sdcclib)
+set(CMAKE_AR "${SDCCLIB_EXECUTABLE}")
+
+if(NOT DEFINED CMAKE_C_FLAGS_INIT)
+  set(CMAKE_C_FLAGS_INIT "-mstm8 --std-c99")
+endif()
+
+if(NOT DEFINED CMAKE_EXE_LINKER_FLAGS_INIT)
+  set (CMAKE_EXE_LINKER_FLAGS_INIT "")
+endif()
 
 #set(CMAKE_FIND_ROOT_PATH /opt/gcc-arm-none-eabi/current/arm-none-eabi)
 

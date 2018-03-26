@@ -13,7 +13,4 @@ project(nfc_lock C)
 
 include(cmake/config.cmake)
 
-add_subdirectory(Stm8sStdPeriph)
-add_subdirectory(stm8s_common)
-
 add_subdirectory(example_beep)
