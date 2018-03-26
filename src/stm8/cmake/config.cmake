@@ -7,7 +7,6 @@ include_directories(${CMAKE_SOURCE_DIR}/Stm8sStdPeriph)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions")
 
-add_definitions(-lstm8 -mstm8)
 #add_definitions(-mthumb -mcpu=cortex-m0)
 #add_definitions(-nostartfiles)
 
