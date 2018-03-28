@@ -1,3 +1,4 @@
+# TODO: make PLATFORM a parameter, that can be configured ia ccmake + add a default value of nfc_lock, so that by default it does what it should
 if("${PLATFORM}" STREQUAL "nfc_lock")
   message(STATUS "PLATFORM: NFC-lock")
   add_definitions(-D STM8S003)
