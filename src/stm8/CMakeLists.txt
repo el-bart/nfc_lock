@@ -13,4 +13,4 @@ project(nfc_lock C)
 
 include(cmake/config.cmake)
 
-add_subdirectory(example_beep)
+add_subdirectory(example_gpio)
