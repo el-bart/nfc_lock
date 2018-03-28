@@ -1,6 +1,6 @@
 # final platform:
 #add_definitions(-D STM8S003)
-#set(MCU_TYPE "stmxxx")
+#set(MCU_TYPE "stm8s003f3")
 
 # evaluation board:
 add_definitions(-D STM8S105)
