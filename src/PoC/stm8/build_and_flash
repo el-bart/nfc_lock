@@ -1,0 +1,4 @@
+#!/bin/bash
+set -ex
+sdcc -lstm8 -mstm8 --out-fmt-ihx blink.c
+stm8flash -c stlink -p stm8s105c6 -w blink.hex
