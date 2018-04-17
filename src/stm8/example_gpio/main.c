@@ -37,8 +37,17 @@
 /* Private define ------------------------------------------------------------*/
 /* Evalboard I/Os configuration */
 
+#ifdef STM8S003
+#define LED_GPIO_PORT  (GPIOC)
+#define LED_GPIO_PINS  (GPIO_PIN_6)
+#else
+#ifdef STM8S105
 #define LED_GPIO_PORT  (GPIOD)
 #define LED_GPIO_PINS  (GPIO_PIN_0)
+#else
+#error unknonw board/MCU...
+#endif
+#endif
 
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
